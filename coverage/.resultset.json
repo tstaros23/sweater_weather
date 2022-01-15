@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/services/map_quest_service.rb": {
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/facades/forecast_facade.rb": {
         "lines": [
           1,
           1,
@@ -10,6 +10,75 @@
           1,
           null,
           1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/spec/services/forecast_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/services/forecast_service.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          2,
           null,
           null
         ]
@@ -18,51 +87,27 @@
         "lines": [
           1,
           1,
-          2,
+          4,
           null,
           null,
           1,
-          2,
+          4,
           null,
           null
         ]
       },
-      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/spec/services/weather_service_spec.rb": {
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/spec/services/map_quest_service_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          null,
           1,
           null,
           1,
           1,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
           1,
           1,
           1,
@@ -74,26 +119,20 @@
           null
         ]
       },
-      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/services/weather_service.rb": {
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/services/map_quest_service.rb": {
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          2,
+          2,
+          2,
           null,
-          1,
+          2,
           null,
           null
         ]
       }
     },
-    "timestamp": 1642280783
+    "timestamp": 1642283503
   }
 }

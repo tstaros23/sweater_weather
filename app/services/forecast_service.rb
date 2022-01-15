@@ -1,5 +1,5 @@
-class WeatherService < BaseService
-  def self.get_weather(latitude,longitude)
+class ForecastService < BaseService
+  def self.get_forecast(latitude,longitude)
      response = conn('https://api.openweathermap.org/data/2.5/onecall').get do |f|
        f.params['lat'] = latitude
        f.params['lon'] = longitude
