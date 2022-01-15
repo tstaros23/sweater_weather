@@ -15,7 +15,5 @@ require 'rails_helper'
      expect(json[:results][0][:locations][0][:latLng][:lng]).to be_a(Float)
      expect(json[:results][0][:locations][0][:latLng][:lat]).to eq(39.738453)
      expect(json[:results][0][:locations][0][:latLng][:lat]).to be_a(Float)
-
-
    end
  end

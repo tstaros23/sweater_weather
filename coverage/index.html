@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.12.3/application.js' type='text/javascript'></script>
     <link href='./assets/0.12.3/application.css' media='screen, projection, print' rel='stylesheet' type='text/css' />
-    <link rel="shortcut icon" type="image/png" href="./assets/0.12.3/favicon_green.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/0.12.3/favicon_red.png" />
     <link rel="icon" type="image/png" href="./assets/0.12.3/favicon.png" />
   </head>
 
@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2022-01-14T22:11:08-07:00">2022-01-14T22:11:08-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2022-01-15T13:54:46-07:00">2022-01-15T13:54:46-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -22,15 +22,15 @@
   <h2>
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
-      <span class="green">
-  100.0%
+      <span class="red">
+  14.89%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
-       <span class="yellow">
-         1.0
+       <span class="red">
+         0.15
        </span>
     </span> hits/line
     )
@@ -39,15 +39,15 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>2</b> files in total.
+    <b>3</b> files in total.
   </div>
 
   <div class="t-line-summary">
-    <b>11</b> relevant lines,
-    <span class="green"><b>11</b> lines covered</span> and
-    <span class="red"><b>0</b> lines missed. </span>
-    (<span class="green">
-  100.0%
+    <b>47</b> relevant lines,
+    <span class="green"><b>7</b> lines covered</span> and
+    <span class="red"><b>40</b> lines missed. </span>
+    (<span class="red">
+  14.89%
 </span>
 )
   </div>
@@ -72,23 +72,34 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#0b298d7e64611acb7f2b9d8599e1e8fff5236a96" class="src_link" title="app/services/base_service.rb">app/services/base_service.rb</a></td>
-            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="red strong cell--number t-file__coverage">60.00 %</td>
             <td class="cell--number">9</td>
             <td class="cell--number">5</td>
-            <td class="cell--number">5</td>
-            <td class="cell--number">0</td>
-            <td class="cell--number">1.00</td>
+            <td class="cell--number">3</td>
+            <td class="cell--number">2</td>
+            <td class="cell--number">0.60</td>
             
           </tr>
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#881960891cbf5411ead5163deb554b7ab0344114" class="src_link" title="app/services/map_quest_service.rb">app/services/map_quest_service.rb</a></td>
-            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="red strong cell--number t-file__coverage">33.33 %</td>
             <td class="cell--number">9</td>
             <td class="cell--number">6</td>
-            <td class="cell--number">6</td>
-            <td class="cell--number">0</td>
-            <td class="cell--number">1.00</td>
+            <td class="cell--number">2</td>
+            <td class="cell--number">4</td>
+            <td class="cell--number">0.33</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#6186f7830a03c24b084a27537b4a46e72a37e455" class="src_link" title="spec/services/weather_service_spec.rb">spec/services/weather_service_spec.rb</a></td>
+            <td class="red strong cell--number t-file__coverage">5.56 %</td>
+            <td class="cell--number">42</td>
+            <td class="cell--number">36</td>
+            <td class="cell--number">2</td>
+            <td class="cell--number">34</td>
+            <td class="cell--number">0.06</td>
             
           </tr>
         
@@ -113,8 +124,8 @@
   <div class="header">
     <h3>app/services/base_service.rb</h3>
     <h4>
-      <span class="green">
-  100.0%
+      <span class="red">
+  60.0%
 </span>
 
       lines covered
@@ -124,8 +135,8 @@
 
     <div class="t-line-summary">
       <b>5</b> relevant lines.
-      <span class="green"><b>5</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
     </div>
 
     
@@ -158,8 +169,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="3">
-            <span class="hits">1</span>
+          <li class="missed" data-hits="0" data-linenumber="3">
+            
             
 
             
@@ -202,8 +213,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="7">
-            <span class="hits">1</span>
+          <li class="missed" data-hits="0" data-linenumber="7">
+            
             
 
             
@@ -243,8 +254,8 @@
   <div class="header">
     <h3>app/services/map_quest_service.rb</h3>
     <h4>
-      <span class="green">
-  100.0%
+      <span class="red">
+  33.33%
 </span>
 
       lines covered
@@ -254,8 +265,8 @@
 
     <div class="t-line-summary">
       <b>6</b> relevant lines.
-      <span class="green"><b>6</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>4</b> lines missed.</span>
     </div>
 
     
@@ -288,8 +299,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="3">
-            <span class="hits">1</span>
+          <li class="missed" data-hits="0" data-linenumber="3">
+            
             
 
             
@@ -299,8 +310,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="4">
-            <span class="hits">1</span>
+          <li class="missed" data-hits="0" data-linenumber="4">
+            
             
 
             
@@ -310,8 +321,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="5">
-            <span class="hits">1</span>
+          <li class="missed" data-hits="0" data-linenumber="5">
+            
             
 
             
@@ -332,8 +343,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="7">
-            <span class="hits">1</span>
+          <li class="missed" data-hits="0" data-linenumber="7">
+            
             
 
             
@@ -361,6 +372,499 @@
             
 
             <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="6186f7830a03c24b084a27537b4a46e72a37e455">
+  <div class="header">
+    <h3>spec/services/weather_service_spec.rb</h3>
+    <h4>
+      <span class="red">
+  5.56%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>36</b> relevant lines.
+      <span class="green"><b>2</b> lines covered</span> and
+      <span class="red"><b>34</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &#39;rails_helper&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby"> RSpec.describe WeatherService do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby">   it &quot;can get the weather forecast&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">     json = WeatherService.get_weather(&quot;Denver,CO&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json).to be_a(Hash)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json).to have_key(:current)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:current]).to be_a(Hash)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:current]).to have_key(:dt)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:current]).to have_key(:sunrise)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:current]).to have_key(:sunset)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:current]).to have_key(:temp)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:current]).to have_key(:feels_like)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:current]).to have_key(:humidity)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:current]).to have_key(:uvi)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="17">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:current]).to have_key(:visibility)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="18">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:current]).to have_key(:weather)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:current][:weather]).to have_key(:description)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="20">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:current][:weather]).to have_key(:icon)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="21">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="22">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json).to have_key(:daily)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="23">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:daily]).to be_a(Array)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="24">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:daily][0]).to have_key(:dt)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="25">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:daily][0]).to have_key(:sunrise)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="26">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:daily][0]).to have_key(:sunset)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="27">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:daily][0]).to have_key(:temp)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="28">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:daily][0][:temp]).to have_key(:min)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="29">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:daily][0][:temp]).to have_key(:max)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="30">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:daily][0]).to have_key(:weather)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="31">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:daily][0][:weather][0]).to have_key(:description)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="32">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:daily][0][:weather][0]).to have_key(:icon)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="33">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="34">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json).to have_key(:hourly)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="35">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:hourly]).to be_a(Array)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="36">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:hourly][0]).to have_key(:dt)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="37">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:hourly][0]).to have_key(:temp)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="38">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:hourly][0]).to have_key(:weather)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="39">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:hourly][0][:weather][0]).to have_key(:description)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="40">
+            
+            
+
+            
+
+            <code class="ruby">     expect(json[:hourly][0][:weather][0]).to have_key(:icon)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="41">
+            
+            
+
+            
+
+            <code class="ruby">   end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="42">
+            
+            
+
+            
+
+            <code class="ruby"> end</code>
           </li>
         </div>
       

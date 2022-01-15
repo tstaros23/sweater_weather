@@ -5,11 +5,11 @@
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
-          1,
+          0,
           null,
           null
         ]
@@ -18,16 +18,62 @@
         "lines": [
           1,
           1,
-          1,
+          0,
           null,
           null,
           1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/spec/services/weather_service_spec.rb": {
+        "lines": [
           1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           null,
           null
         ]
       }
     },
-    "timestamp": 1642223468
+    "timestamp": 1642280086
   }
 }
