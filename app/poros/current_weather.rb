@@ -1,7 +1,7 @@
 require 'date'
 
 class CurrentWeather
-  attr_reader :temperature, :feels_like, :datetime, :sunrise, :sunset, :humidity, :visibility, :conditions, :icon, :uvi
+  attr_reader :temperature, :feels_like, :datetime, :sunrise, :sunset, :humidity, :visibility, :conditions, :icon, :uvi, :id
 
   def initialize(attr)
     @datetime = Time.at(attr[:dt]).to_s

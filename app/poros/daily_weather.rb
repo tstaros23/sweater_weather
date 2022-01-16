@@ -1,7 +1,7 @@
 require 'date'
 
 class DailyWeather
-  attr_reader :datetime, :sunrise, :sunset, :max_temp, :min_temp, :conditions, :icon
+  attr_reader :datetime, :sunrise, :sunset, :max_temp, :min_temp, :conditions, :icon, :id
 
   def initialize(attr)
     @datetime = Time.at(attr[:dt]).to_s

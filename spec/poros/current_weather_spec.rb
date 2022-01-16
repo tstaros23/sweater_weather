@@ -52,5 +52,9 @@ require 'rails_helper'
 
      expect(current_weather.icon).to eq("04n")
      expect(current_weather.icon.class).to eq(String)
+
+     expect(current_weather.id).to eq(nil)
+     expect(current_weather.id.class).to eq(NilClass)
+
    end
  end
