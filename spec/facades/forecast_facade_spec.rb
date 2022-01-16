@@ -25,7 +25,7 @@ require 'rails_helper'
    it "is an instance of daily weather" do
      daily_forecast = ForecastFacade.create_daily_weather("#{@location}")
      daily_forecast.each do |forecast|
-       expect(foecast).to be_an_instance_of(DailyWeather)
+       expect(forecast).to be_an_instance_of(DailyWeather)
      end
    end
  end
