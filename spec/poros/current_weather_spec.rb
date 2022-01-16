@@ -15,7 +15,7 @@ require 'rails_helper'
      current = CurrentWeather.new(attr)
 
      expect(current).to be_a(CurrentWeather)
-     expect(current.temperature).to be(79.4)
+     expect(current.temperature).to eq(79.4)
      expect(current.feels_like).to eq(26.46)
    end
  end
