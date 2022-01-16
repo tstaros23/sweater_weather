@@ -10,13 +10,11 @@ class ForecastFacade
 
   def self.create_current_weather(location)
     CurrentWeather.new(forecast_search(location)[:current])
-    #expect that you create a current weather instance
   end
 
   def self.create_hourly_weather(location)
     forecast_search(location)[:hourly].map do |data|
       HourlyWeather.new(data)
-      #.each and each object to be an instance of Hourly weather
     end
   end
 
