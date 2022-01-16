@@ -25,8 +25,8 @@ require 'rails_helper'
 
      expect(daily_weather).to be_a(DailyWeather)
 
-     expect(daily_weather.datetime).to eq("2022-01-14 22:43:59 -0700")
-     expect(daily_weather.datetime.class).to eq(String)
+     expect(daily_weather.date).to eq("2022-01-14")
+     expect(daily_weather.date.class).to eq(String)
 
      expect(daily_weather.sunrise).to eq("2022-01-14 07:19:26 -0700")
      expect(daily_weather.sunrise.class).to eq(String)

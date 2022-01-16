@@ -182,6 +182,7 @@
       "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/poros/daily_weather.rb": {
         "lines": [
           1,
+          1,
           null,
           1,
           1,
@@ -250,6 +251,55 @@
           49,
           49,
           49,
+          null,
+          null
+        ]
+      },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/spec/requests/api/v1/forecast_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
           null,
           null
         ]
@@ -370,6 +420,6 @@
         ]
       }
     },
-    "timestamp": 1642318906
+    "timestamp": 1642364603
   }
 }
