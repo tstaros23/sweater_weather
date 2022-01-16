@@ -1,10 +1,8 @@
 require 'rails_helper'
 
  RSpec.describe ForecastFacade, :vcr do
-   it "creates weather objects" do
+   it "gets weather based off of longitude and latitude" do
      forecast_info = ForecastFacade.forecast_search('Denver,CO')
-     forecast_info.each do |info|
-       expect(info).to be_a(Forecast)
-     end
+     expect(forecast_info[:current]).to be_a Hash
    end
  end
