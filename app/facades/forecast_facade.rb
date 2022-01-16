@@ -23,10 +23,4 @@ class ForecastFacade
       DailyWeather.new(data)
     end
   end
-
-    # forecast_hash = Hash.new({})
-    # forecast_hash[:current_weather] = current_weather
-    # forecast_hash[:hourly_weather] = hourly_weather
-    # forecast_hash[:daily_weather] = daily_weather
-    # forecast_hash
 end
