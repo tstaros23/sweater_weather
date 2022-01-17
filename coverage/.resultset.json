@@ -547,6 +547,64 @@
           null
         ]
       },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/spec/requests/api/v1/sessions_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
       "/Users/theodorestaros/turing/mod3/projects/sweater_weather/spec/services/background_service_spec.rb": {
         "lines": [
           1,
@@ -809,6 +867,6 @@
         ]
       }
     },
-    "timestamp": 1642443392
+    "timestamp": 1642447231
   }
 }
