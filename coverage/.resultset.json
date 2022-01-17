@@ -865,8 +865,25 @@
           null,
           null
         ]
+      },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/controllers/api/v1/sessions_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          0,
+          0,
+          null,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1642447231
+    "timestamp": 1642448711
   }
 }
