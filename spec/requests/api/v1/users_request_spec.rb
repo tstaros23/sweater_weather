@@ -16,7 +16,7 @@ require 'rails_helper'
 
      user_json = JSON.parse(response.body, symbolize_names: true)
 
-     expect(users_json).to have_key(:data)
+     expect(user_json).to have_key(:data)
      expect(user_json[:data]).to be_a(Hash)
      expect(user_json[:data]).to have_key(:id)
      expect(user_json[:data]).to have_key(:type)

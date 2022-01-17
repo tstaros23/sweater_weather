@@ -11,8 +11,4 @@ class UserSerializer
       }
     }
   end
-
-  def self.api_key
-    
-  end
 end
