@@ -64,6 +64,14 @@ RSpec.configure do |config|
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
   config.include FactoryBot::Syntax::Methods
+
+end
+
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
+  end
 end
 
 VCR.configure do |config|
@@ -71,11 +79,4 @@ VCR.configure do |config|
   config.hook_into :webmock
   config.filter_sensitive_data('<weather_api_key>') { ENV['weather_api_key'] }
   config.configure_rspec_metadata!
-end
-
-Shoulda::Matchers.configure do |config|
-  config.integrate do |with|
-    with.test_framework :minitest
-    with.library :rails
-  end
 end

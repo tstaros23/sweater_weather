@@ -18,7 +18,3 @@ class BackgroundSerializer
     }
   end
 end
-#   def self.format_image(image)
-#     image.
-#   end
-# end
