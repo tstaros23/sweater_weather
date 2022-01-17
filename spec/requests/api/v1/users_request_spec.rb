@@ -7,9 +7,9 @@ require 'rails_helper'
        password: 'password',
        password_confirmation: 'password'
      }
-     headers = { 'CONTENT_TYPE' => 'application/json', 'ACCEPT' => 'application/json'}
+     headers = { 'CONTENT_TYPE' => 'application/json', 'Accept' => 'application/json'}
 
-     post 'api/v1/users', params: body
+     post '/api/v1/users', params: body
 
      expect(response).to be_successful
      expect(response.status).to eq(201)
@@ -35,7 +35,7 @@ require 'rails_helper'
      }
      headers = { 'CONTENT_TYPE' => 'application/json', 'ACCEPT' => 'application/json'}
 
-     post 'api/v1/users', params: body
+     post '/api/v1/users', params: body
 
      expect(response).not_to be_successful
      expect(response.status).to eq(400)
@@ -50,7 +50,7 @@ require 'rails_helper'
      }
      headers = { 'CONTENT_TYPE' => 'application/json', 'ACCEPT' => 'application/json'}
 
-     post 'api/v1/users', params: body
+     post '/api/v1/users', params: body
 
      expect(response).not_to be_successful
      expect(response.status).to eq(400)
