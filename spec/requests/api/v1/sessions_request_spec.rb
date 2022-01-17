@@ -16,7 +16,7 @@ require 'rails_helper'
 
      json = JSON.parse(response.body, symbolize_names: true)
 
-     expect(response.status).to eq(201)
+     expect(response.status).to eq(200)
      expect(response).to be_successful
 
      expect(json).to have_key(:data)
