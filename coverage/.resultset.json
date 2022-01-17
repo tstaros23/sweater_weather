@@ -249,6 +249,25 @@
           null
         ]
       },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/spec/requests/api/v1/background_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null
+        ]
+      },
       "/Users/theodorestaros/turing/mod3/projects/sweater_weather/spec/requests/api/v1/forecast_request_spec.rb": {
         "lines": [
           1,
@@ -351,6 +370,48 @@
           null
         ]
       },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/spec/services/background_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/services/background_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/services/base_service.rb": {
+        "lines": [
+          1,
+          1,
+          27,
+          null,
+          null,
+          1,
+          27,
+          null,
+          null
+        ]
+      },
       "/Users/theodorestaros/turing/mod3/projects/sweater_weather/spec/services/forecast_service_spec.rb": {
         "lines": [
           1,
@@ -413,19 +474,6 @@
           13,
           null,
           13,
-          null,
-          null
-        ]
-      },
-      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/services/base_service.rb": {
-        "lines": [
-          1,
-          1,
-          26,
-          null,
-          null,
-          1,
-          26,
           null,
           null
         ]
@@ -548,6 +596,6 @@
         ]
       }
     },
-    "timestamp": 1642377336
+    "timestamp": 1642384237
   }
 }

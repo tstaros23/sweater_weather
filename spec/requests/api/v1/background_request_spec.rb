@@ -1,7 +1,7 @@
 require 'rails_helper'
 
- RSpec.describe 'can get all background data' do
-   it "can return all background data for a location" do
+ RSpec.describe 'can get all background data', type: :request do
+   it "can return all background data for a location", :vcr do
      get '/api/v1/backgrounds', params: {location: 'denver,co'}
 
      headers = { 'ACCEPT' => 'application/json'}
