@@ -1,6 +1,53 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/facades/background_facade.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/spec/facades/forecast_facade_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          4,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          48,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          8,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/facades/forecast_facade.rb": {
         "lines": [
           1,
@@ -82,12 +129,12 @@
           1,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
           null,
           null
         ]
@@ -449,12 +496,12 @@
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
-          1,
+          3,
+          3,
+          3,
+          3,
           null,
-          1,
+          3,
           null,
           null
         ]
@@ -463,11 +510,11 @@
         "lines": [
           1,
           1,
-          27,
+          29,
           null,
           null,
           1,
-          27,
+          29,
           null,
           null
         ]
@@ -574,6 +621,29 @@
           null
         ]
       },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/controllers/api/v1/backgrounds_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/serializers/background_serializer.rb": {
+        "lines": [
+
+        ]
+      },
       "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/controllers/api/v1/forecasts_controller.rb": {
         "lines": [
           1,
@@ -585,12 +655,6 @@
           2,
           2,
           null,
-          null
-        ]
-      },
-      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
           null
         ]
       },
@@ -656,6 +720,6 @@
         ]
       }
     },
-    "timestamp": 1642390579
+    "timestamp": 1642395309
   }
 }
