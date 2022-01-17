@@ -1,7 +1,7 @@
 require 'rails_helper'
 
  RSpec.describe 'index', type: :request  do
-   it "can return all forecast data for user", :vcr do
+   it "can return all forecast data for location", :vcr do
      get '/api/v1/forecast', params: {location: 'denver,co'}
 
      headers = { 'ACCEPT' => 'application/json'}
