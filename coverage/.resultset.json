@@ -78,6 +78,36 @@
           null
         ]
       },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/spec/models/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/models/user.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/theodorestaros/turing/mod3/projects/sweater_weather/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/theodorestaros/turing/mod3/projects/sweater_weather/spec/poros/background_spec.rb": {
         "lines": [
           1,
@@ -778,6 +808,6 @@
         ]
       }
     },
-    "timestamp": 1642401669
+    "timestamp": 1642442647
   }
 }
