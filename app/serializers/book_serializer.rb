@@ -10,18 +10,16 @@ class BookSerializer
             summary: current.conditions,
             temperature: "#{current.temperature} F"
         },
-        total_books_found: 5,
-        books: format_books(book)
+        total_books_found: book.count,
+        books:  book.map do |obj|
+          {
+            isbn: obj.isbn,
+            title: obj.title,
+            publisher: obj.publisher
+          }
+        end
         }
       }
-    }
-  end
-
-  def self.format_books(book)
-    {
-      isbn: book.isbn,
-      title: book.title,
-      publisher: book.publisher
     }
   end
 end
