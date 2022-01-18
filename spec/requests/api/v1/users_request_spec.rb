@@ -60,7 +60,24 @@ require 'rails_helper'
      expect(response.status).to eq(400)
 
      json = JSON.parse(response.body, symbolize_names: true)
-     
+
      expect(json[:errors][:details]).to eq("Password mismatch")
+   end
+   it "returns an error if a field is missing" do
+
+     body = {
+       email: 'whatever@example.com',
+       password_confirmation: 'password'
+     }
+     headers = { 'CONTENT_TYPE' => 'application/json', 'ACCEPT' => 'application/json'}
+
+     post '/api/v1/users', params: body
+
+     expect(response).not_to be_successful
+     expect(response.status).to eq(400)
+
+     json = JSON.parse(response.body, symbolize_names: true)
+
+     expect(json[:errors][:details]).to eq("Field missing")
    end
  end
