@@ -5,7 +5,6 @@ class Api::V1::BooksController < ApplicationController
     books = BookFacade.book_search(params[:location])[0,params[:quantity].to_i]
     count = BookFacade.count_books(params[:location])
     json = render json: BookSerializer.format_json(current_forecast, params[:location],  params[:quantity], books, count)
-    require "pry"; binding.pry
   else
     render json: { error: {details: "bad request"}}, status: :bad_request
     end
