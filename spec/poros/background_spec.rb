@@ -18,6 +18,8 @@ require 'rails_helper'
      location = "denver,co"
      background = Background.new(attr, location)
 
+     expect(background).to be_an_instance_of(Background)
+
      expect(background.url).to eq("https://images.unsplash.com/photo-1634507307799-ace9b49840b7?ixid=MnwyOTE3ODZ8MHwxfHNlYXJjaHwxfHxkZW52ZXIlMkNjb3xlbnwwfHx8fDE2NDIzODM1NzM&ixlib=rb-1.2.1")
      expect(background.url.class).to eq(String)
 
