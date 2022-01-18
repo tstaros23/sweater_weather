@@ -5,6 +5,6 @@ require 'rails_helper'
      title = 'denver,co'
      book_info = BookFacade.book_search(title)
 
-     expect(book_info).to be_an_instance_of(Book)
+     expect(book_info).to be_a Array
    end
  end
