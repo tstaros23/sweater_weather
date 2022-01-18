@@ -6,4 +6,7 @@ class BookFacade
       Book.new(data)
     end
   end
+  def self.count_books(location)
+    BookService.get_book(location)[:numFound]
+  end
 end

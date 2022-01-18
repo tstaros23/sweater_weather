@@ -1,5 +1,5 @@
 class BookSerializer
-  def self.format_json(current, location, quantity, book)
+  def self.format_json(current, location, quantity, book, count)
     {
       data: {
         id: nil,
@@ -10,7 +10,7 @@ class BookSerializer
             summary: current.conditions,
             temperature: "#{current.temperature} F"
         },
-        total_books_found: book.count,
+        total_books_found: count,
         books: book.map do |obj|
           {
             isbn: obj.isbn,
