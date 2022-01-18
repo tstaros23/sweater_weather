@@ -11,7 +11,7 @@ class BookSerializer
             temperature: "#{current.temperature} F"
         },
         total_books_found: book.count,
-        books:  book.map do |obj|
+        books: book.map do |obj|
           {
             isbn: obj.isbn,
             title: obj.title,
