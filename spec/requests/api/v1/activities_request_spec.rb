@@ -2,8 +2,8 @@ require 'rails_helper'
 
  RSpec.describe 'can get activity data' do
    it "can return all activity data and forecast for a location", :vcr do
-     get '/api/v1/activities', params: {location: 'chicago,il', type: 'recreational'}
-     
+     get '/api/v1/activities', params: {destination: 'chicago,il', type: 'recreational'}
+
      headers = { 'ACCEPT' => 'application/json'}
      expect(response.content_type).to eq('application/json')
 

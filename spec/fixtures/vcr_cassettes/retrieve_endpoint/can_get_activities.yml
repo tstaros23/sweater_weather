@@ -31,15 +31,15 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '120'
+      - '138'
       Etag:
-      - W/"78-tZHpEjYTiXlvBBUX8OzulbytI3Q"
+      - W/"8a-6JowXFmpb/WrCyN7V1ESOOCmCmE"
       Date:
-      - Tue, 18 Jan 2022 06:29:52 GMT
+      - Tue, 18 Jan 2022 06:54:06 GMT
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"activity":"Write a poem","type":"recreational","participants":1,"price":0,"link":"","key":"8688620","accessibility":0}'
-  recorded_at: Tue, 18 Jan 2022 06:29:52 GMT
+      string: '{"activity":"Try a food you don''t like","type":"recreational","participants":1,"price":0.1,"link":"","key":"6693574","accessibility":0.05}'
+  recorded_at: Tue, 18 Jan 2022 06:54:06 GMT
 recorded_with: VCR 6.0.0

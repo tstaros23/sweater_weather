@@ -35,13 +35,13 @@ http_interactions:
       Etag:
       - W/"8a-MtTpA5zJU3NtjUui+IJ2t7njp0k"
       Date:
-      - Tue, 18 Jan 2022 06:13:37 GMT
+      - Tue, 18 Jan 2022 06:53:02 GMT
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"activity":"Buy a new house decoration","type":"recreational","participants":1,"price":0.4,"link":"","key":"3456114","accessibility":0.3}'
-  recorded_at: Tue, 18 Jan 2022 06:13:37 GMT
+  recorded_at: Tue, 18 Jan 2022 06:53:02 GMT
 - request:
     method: get
     uri: http://www.boredapi.com/api/activity?type=relaxation
@@ -73,15 +73,15 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '134'
+      - '151'
       Etag:
-      - W/"86-Jv8ZboB8ImLXR1sJhXPFU8E3H8Y"
+      - W/"97-JbFu+LMV+jFjwnWr5c0DNGI26co"
       Date:
-      - Tue, 18 Jan 2022 06:13:40 GMT
+      - Tue, 18 Jan 2022 06:53:05 GMT
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"activity":"Meditate for five minutes","type":"relaxation","participants":1,"price":0,"link":"","key":"3699502","accessibility":0.05}'
-  recorded_at: Tue, 18 Jan 2022 06:13:40 GMT
+      string: '{"activity":"Watch a movie you''d never usually watch","type":"relaxation","participants":1,"price":0.15,"link":"","key":"9212950","accessibility":0.15}'
+  recorded_at: Tue, 18 Jan 2022 06:53:05 GMT
 recorded_with: VCR 6.0.0
