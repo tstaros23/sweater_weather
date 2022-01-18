@@ -39,6 +39,10 @@ require 'rails_helper'
 
      expect(response).not_to be_successful
      expect(response.status).to eq(400)
+
+     json = JSON.parse(response.body, symbolize_names: true)
+
+     expect(json[:errors][:details]).to eq("Email exists")
    end
 
    it "returns an error if passwords don't match" do
@@ -54,5 +58,9 @@ require 'rails_helper'
 
      expect(response).not_to be_successful
      expect(response.status).to eq(400)
+
+     json = JSON.parse(response.body, symbolize_names: true)
+     
+     expect(json[:errors][:details]).to eq("Password mismatch")
    end
  end
