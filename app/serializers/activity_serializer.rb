@@ -1,19 +1,25 @@
 class ActivitySerializer
-  def self.format_json(location)
+  def self.format_json(destination, current, activities)
     {
       data: {
         id: nil,
         type: 'activities',
         attributes: {
-          destination: location
-
+          destination: destination,
+          forecast: {
+            summary: current.conditions,
+            temperature: "#{current.temperature} F"
+          },
+          activities: activities.map  do |activity|
+          {
+            title: activity.title,
+            type: activity.type,
+            participants: activity.participants,
+            price: activity.price
+          }
+        end
         }
       }
     }
-  end
-
-  def self.format_current_weather(location)
-    current = ForecastFacade.forecast_search(location)[:current]
-    require "pry"; binding.pry
   end
 end

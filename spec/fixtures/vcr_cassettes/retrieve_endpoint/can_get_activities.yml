@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.boredapi.com/api/activity?type=Recreational
+    uri: http://www.boredapi.com/api/activity?type=recreational
     body:
       encoding: US-ASCII
       string: ''
@@ -31,15 +31,15 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '59'
+      - '120'
       Etag:
-      - W/"3b-y5404MDquWW4EUq86W47VXZZOEU"
+      - W/"78-tZHpEjYTiXlvBBUX8OzulbytI3Q"
       Date:
-      - Tue, 18 Jan 2022 04:26:54 GMT
+      - Tue, 18 Jan 2022 06:29:52 GMT
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"error":"No activity found with the specified parameters"}'
-  recorded_at: Tue, 18 Jan 2022 04:26:54 GMT
+      string: '{"activity":"Write a poem","type":"recreational","participants":1,"price":0,"link":"","key":"8688620","accessibility":0}'
+  recorded_at: Tue, 18 Jan 2022 06:29:52 GMT
 recorded_with: VCR 6.0.0
