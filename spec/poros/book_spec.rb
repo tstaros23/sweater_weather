@@ -12,5 +12,12 @@ require 'rails_helper'
          "Universal Map Enterprises"
        ]
      }
+
+   title = 'denver,co'
+   book = Book.new(attr)
+
+   expect(book.title).to eq("Chicago, Il Vicinity")
+   expect(book.isbn).to eq(["9780762521920","0762521929"])
+   expect(book.publisher).to eq(["Universal Map Enterprises"])
    end
  end
