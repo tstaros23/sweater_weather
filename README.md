@@ -54,3 +54,46 @@ Forecast
 ```
 * The location in the query of this endpoint can be any location that you want the forecast information
 * This will return a collection of weather objects for the next 5 days as well as hourly weather for the next 8 hours.
+* An example of a response will look like:
+```
+{
+    "data": {
+        "id": null,
+        "type": "forecast",
+        "attributes": {
+            "current_weather": {
+                "datetime": "2021-09-28 13:31:36 -0700",
+                "conditions": "clear sky",
+                "temperature": 89.9,
+                "humidity": 36,
+                "feels_like": 89.3,
+                "uvi": 5.43,
+                "visibility": 10000,
+                "sunrise": "2021-09-28 06:29:56 -0700",
+                "sunset": "2021-09-28 18:25:47 -0700"
+            },
+            "daily_weather": [
+                {
+                    "date": "2021-09-29",
+                    "sunrise": "2021-09-29 06:30:40 -0700",
+                    "sunset": "2021-09-29 18:24:22 -0700",
+                    "max_temp": 86.7,
+                    "min_temp": 72.3,
+                    "conditions": "overcast clouds",
+                    "icon": "http://openweathermap.org/img/w/04d.png"
+                },
+                { ... }
+            ],
+            "hourly_weather": [
+                {
+                    "time": "14:00:00",
+                    "temperature": 89.9,
+                    "conditions": "clear sky",
+                    "icon": "http://openweathermap.org/img/w/01d.png"
+                },
+                { ... }
+            ]
+        }
+    }
+}
+```
