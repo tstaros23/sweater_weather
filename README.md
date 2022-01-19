@@ -21,6 +21,7 @@ Tech Stack:
 ##
 Setup
 ----------------------------------------
+* Clone or Fork this repository
 * From the command line, install gems and set up your DB:
     * `bundle`
     * `rails db:{create,migrate}`
