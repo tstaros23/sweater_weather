@@ -15,8 +15,12 @@ require 'rails_helper'
        road_trip = RoadTrip.new(attr)
 
        expect(road_trip.start_city).to eq("Denver, CO")
+       expect(road_trip.start_city.class).to eq(String)
        expect(road_trip.end_city).to eq("Estes Park, CO")
+       expect(road_trip.end_city.class).to eq(String)
        expect(road_trip.travel_time).to eq("2 hours, 13 minutes")
+       expect(road_trip.travel_time.class).to eq(String)
        expect(road_trip.weather_at_eta).to eq(attr[:weather_at_eta])
+       expect(road_trip.weather_at_eta.class).to eq(Hash)
    end
  end
