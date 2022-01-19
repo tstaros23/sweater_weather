@@ -34,4 +34,4 @@ Setup
    unsplash_key: {key}
    mapquest_api_key: {key}
    ```
-* Run your development server with `rails s`, to see the application in action.
+* Run your development server with `rails s`, to see the application run.
