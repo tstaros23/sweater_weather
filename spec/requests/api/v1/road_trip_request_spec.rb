@@ -66,9 +66,11 @@ require 'rails_helper'
 
      post '/api/v1/road_trip', params: body
 
+     road_trip_json = JSON.parse(response.body, symbolize_names: true)
+
      expect(response).not_to be_successful
      expect(response.status).to eq(401)
 
-     expect(json[:errors][:details]).to eq("Invalid API key")
+     expect(road_trip_json[:errors][:details]).to eq("Unauthorized")
    end
  end

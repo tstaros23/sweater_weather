@@ -6,6 +6,6 @@ require 'rails_helper'
      finish = 'seattle,wa'
      road_trip_info = RoadTripFacade.road_trip_info(start,finish)
 
-     expect(background_info).to be_a Hash
+     expect(road_trip_info).to be_an_instance_of(RoadTrip)
    end
  end

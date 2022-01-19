@@ -3,7 +3,11 @@ class RoadTripFacade
     route_data = MapQuestService.get_route(start,finish)
 
     direction_data = MapQuestService.get_geocode(finish)
-    time = route_data[:route][:formattedTime]
+    if route_data[:route][:formattedTime].nil?
+      time = "impossible route"
+    else
+      time = route_data[:route][:formattedTime]
+    end
     weather = ForecastService.get_forecast(direction_data[:results][0][:locations][0][:latLng][:lat], direction_data[:results][0][:locations][0][:latLng][:lng], 48)
     time_at_eta = time.to_i.round -1
     temp_at_eta = weather[:hourly][time_at_eta][:temp]
