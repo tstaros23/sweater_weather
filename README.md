@@ -44,6 +44,13 @@ Endpoints
 ```
    http://localhost:3000/api/v1/{query}
 ```
-* Query needs to be reqplaced by the endpoints listed below:
+* Query needs to be reqplaced by one of the endpoints listed below:
 ###
 Forecast
+----------------------------------------
+
+```
+   GET forecast?location={location} 
+```
+* The location in the query of this endpoint can be any location that you want the forecast information
+* This will return a collection of weather objects for the next 5 days as well as hourly weather for the next 8 hours.
