@@ -35,3 +35,14 @@ Setup
    mapquest_api_key: {key}
    ```
 * Run your development server with `rails s`, to see the application run.
+##
+Endpoints
+----------------------------------------
+
+* Backend API base path:
+```
+   http://localhost:3000/api/v1/{query}
+```
+* Query needs to be reqplaced by the endpoints listed below:
+###
+Forecast
