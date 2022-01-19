@@ -16,4 +16,12 @@ require 'rails_helper'
      expect(json[:results][0][:locations][0][:latLng][:lat]).to eq(39.738453)
      expect(json[:results][0][:locations][0][:latLng][:lat]).to be_a(Float)
    end
+   it "can get the data from a route", :vcr do
+     from= "denver,co"
+     to = "Estes Park, CO"
+     json = MapQuestService.get_route(from,to)
+
+     expect(json).to be_a(Hash)
+
+   end
  end
