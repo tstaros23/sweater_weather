@@ -20,16 +20,18 @@ Tech Stack:
 
 ##
 Setup
-
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+----------------------------------------
+* From the command line, install gems and set up your DB:
+    * `bundle`
+    * `rails db:{create,migrate}`
+* Run the test suite with `bundle exec rspec`
+* Sign up for the necessary API links. I have linked them at the bottom of the document.
+* On the command line, run `bundle exec figaro install`
+* This will create an `application.yml` file to keep your API keys secret
+* Add the following lines to your `application.yml` file, replacing {key} and {secret} with the information from your API key you are provided from the API link:
+   ```
+   open_weather_api: {key}
+   unsplash_key: {key}
+   mapquest_api_key: {key}
+   ```
+* Run your development server with `rails s`, to see the application in action.
