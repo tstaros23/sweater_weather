@@ -1,15 +1,26 @@
-# README
+# 
+Sweater Weather
+----------------------------------------
+### Ted Staros
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Ruby](https://img.shields.io/badge/Ruby-v2.7.2-red)
 
-Things you may want to cover:
+![Rails](https://img.shields.io/badge/Rails-v5.2.6-red)
 
-* Ruby version
+#### Sweater Weather is a service-oriented architecture application that allows the front-end to communicate with the back-end through an API. This is the backend repository. This backend application exposes API that satisfies the front-end team's requirements.
 
-* System dependencies
+## 
+Tech Stack:
+----------------------------------------
+- Rails 5.2.6
+- Ruby 2.7.2
+- PostgreSQL
+- RSpec
+- Postman
 
-* Configuration
+##
+Setup
+
 
 * Database creation
 
