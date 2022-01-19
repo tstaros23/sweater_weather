@@ -21,6 +21,11 @@ class RoadTripFacade
         conditions: conditions_at_eta
       }
     }
+    if data[:travel_time] == "impossible route"
+      data[:weather_at_eta].clear
+    else
+      data
+    end
     RoadTrip.new(data)
   end
 end

@@ -51,6 +51,7 @@ require 'rails_helper'
      road_trip_json = JSON.parse(response.body, symbolize_names: true)
 
      expect(road_trip_json[:data][:attributes][:travel_time]).to eq("impossible route")
+     expect(road_trip_json[:data][:attributes][:weather_at_eta].empty?).to be(true)
    end
 
    it "wont send information about road trip if user api key is invalid" do
