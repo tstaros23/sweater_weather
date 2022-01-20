@@ -1,6 +1,5 @@
 class Api::V1::ForecastsController < ApplicationController
   def index
-    forecast = ForecastFacade.forecast_search(params[:location])
     current_weather = ForecastFacade.create_current_weather(params[:location])
     daily_weather = ForecastFacade.create_daily_weather(params[:location])
     hourly_weather = ForecastFacade.create_hourly_weather(params[:location])
