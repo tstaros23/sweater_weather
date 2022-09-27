@@ -97,3 +97,11 @@ Forecast
     }
 }
 ```
+## APIs
+
+I used 3 different APIs in this project. They are listed below:
+1. [Open Weather's One Call](https://openweathermap.org/api/one-call-api)
+2. [Mapquest API](https://developer.mapquest.com/documentation/)
+3. [Unsplash API](https://unsplash.com/documentation#getting-started)
+
+All of the above require the use of API keys. To aquire your own keys, please visit the linked sites to get started.
