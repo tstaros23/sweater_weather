@@ -1,17 +1,19 @@
-# 
+
 Sweater Weather
 ----------------------------------------
 ### Ted Staros
 
 ![Ruby](https://img.shields.io/badge/Ruby-v2.7.2-red)
-
 ![Rails](https://img.shields.io/badge/Rails-v5.2.6-red)
+---
 
-#### Sweater Weather is a service-oriented architecture application that allows the front-end to communicate with the back-end through an API. This is the backend repository. This backend application exposes API that satisfies the front-end team's requirements.
+Sweater Weather is a trip planning app that helps you determine whether or not you'll need a sweater. This backend component is designed to consume multiple external APIs for our front end to use. 
 
-## 
-Tech Stack:
-----------------------------------------
+## Architecture
+This app uses a service-oriented architecture, with seperate frontend and backend rails applications. This is the **backend** repository. Users of Sweater Weather don't interact with this repository directly, but rather through the frontend app. The backend application is responsible for making API calls to the APIs listed below, formatting that data, and making that data available through several endpoints to be consumed by the frontend.
+
+
+## Tech Stack:
 - Rails 5.2.6
 - Ruby 2.7.2
 - PostgreSQL
@@ -20,7 +22,6 @@ Tech Stack:
 
 ##
 Setup
-----------------------------------------
 * Clone or Fork this repository
 * From the command line, install gems and set up your DB:
     * `bundle`
