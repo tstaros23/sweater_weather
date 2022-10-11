@@ -222,6 +222,6 @@ I used 3 different APIs in this project. They are listed below:
 
 All of the above require the use of API keys. To aquire your own keys, please visit the linked sites to get started.
 
-## Work In Prgress
+## Work In Progress
 
 Making changes to the Forecast endpoint so that the daily forecasts are limited to the next five days, and hourly forecasts are for the next 8 hours
