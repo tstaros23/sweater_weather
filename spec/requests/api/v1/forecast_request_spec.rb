@@ -42,6 +42,9 @@ require 'rails_helper'
      expect(forecast_data[:data][:attributes][:hourly_weather][0]).to have_key(:temperature)
      expect(forecast_data[:data][:attributes][:hourly_weather][0]).to have_key(:conditions)
      expect(forecast_data[:data][:attributes][:hourly_weather][0]).to have_key(:icon)
+
+     expect(forecast_data[:data][:attributes][:daily_weather].count).to eq(5)
+     expect(forecast_data[:data][:attributes][:hourly_weather].count).to eq(8)
    end
 
    it "should not return this forecast data for users", :vcr do
