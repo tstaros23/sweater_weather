@@ -51,7 +51,7 @@ Endpoints
 ```ruby
    GET forecast?location={a location you'd like forecast information}
 ```   
-Returns a collection of weather objects, including current, hourly, and daily forecasts. Daily forecasts are limited to the next five days, and hourly forecasts are for the next 8 hours
+Returns a collection of weather objects, including current, hourly, and daily forecasts.
 Example response:
 ```
    {
@@ -221,3 +221,7 @@ I used 3 different APIs in this project. They are listed below:
 3. [Unsplash API](https://unsplash.com/documentation#getting-started)
 
 All of the above require the use of API keys. To aquire your own keys, please visit the linked sites to get started.
+
+## Work In Prgress
+
+Making changes to the Forecast endpoint so that the daily forecasts are limited to the next five days, and hourly forecasts are for the next 8 hours
