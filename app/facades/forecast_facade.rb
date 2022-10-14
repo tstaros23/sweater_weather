@@ -15,12 +15,12 @@ class ForecastFacade
   def self.create_hourly_weather(location)
     forecast_search(location)[:hourly].map do |data|
       HourlyWeather.new(data)
-    end
+    end[0..7]
   end
 
   def self.create_daily_weather(location)
     forecast_search(location)[:daily].map do |data|
       DailyWeather.new(data)
-    end
+    end[0..4]
   end
 end
